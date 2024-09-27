@@ -1,4 +1,3 @@
-// show_password.php
 <?php
 include 'db_connection.php';
 

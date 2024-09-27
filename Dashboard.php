@@ -31,32 +31,26 @@ $conn->close();
 <body>
     <?php include 'navbar.php'; ?>
 
-    <!-- Full-width grey box -->
     <div class="profile-box">
         <div class="profile-container">
-            <!-- Circle Profile Image Positioned on the Left (Not Clickable) -->
             <div class="profile-image" id="profileImage">
                 <img id="profilePic" src="<?php echo $profile_image; ?>" alt="Profile Image"> <!-- Profile Image from DB -->
             </div>
 
-            <!-- Profile Information (can add more details or content) -->
             <div class="profile-info">
                 <h2>Welcome, User!</h2>
                 <p>Here is your dashboard. Customize your profile, update settings, and more.</p>
             </div>
 
-            <!-- View Profile Button on the right side -->
             <div class="view-profile">
                 <a href="S_Profile.php"><button class="view-profile-btn">View Profile</button></a> <!-- Link to Profile.php -->
             </div>
         </div>
     </div>
 
-    <!-- Subjects Container -->
     <div class="subject-container">
         <h2>Subjects</h2>
 
-        <!-- No Subjects Message -->
         <p class="no-subject-message">No subject yet.</p>
     </div>
 
